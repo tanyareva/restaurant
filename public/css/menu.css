@@ -1,0 +1,13 @@
+.category {
+  background-color: pink;
+}
+
+.category .menuItems .description {
+  color: lightslategray;
+}
+
+.category .menuItems .menuItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

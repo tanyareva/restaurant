@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  min-width: 1200px;
+}
+.header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+}
+.logo {
+  flex-grow: 1;
+  align-items: center;
+  padding-left: 10px;
+}
+.logo img {
+  height: 50px;
+  margin-top: 10px;
+}
+.navigation {
+  margin-top: 20px;
+  font-family: fantasy;
+  font-size: 22px;
+  color: seashell;
+}
+a {
+  color: seashell;
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0 15px;
+}
+.box {
+  padding-top: 70px;
+  background-color: black;
+}
+.container1 {
+  height: 700px;
+  background-image: url(../images/photo1.jpeg);
+  background-size: cover;
+  text-align: -webkit-center;
+}
+.container1 h2 {
+  font-family: fantasy;
+  color: seashell;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px;
+}
+.container1 h4 {
+  font-family: fantasy;
+  color: seashell;
+  font-size: 15px;
+  margin: 0;
+  padding: 10px;
+}
+.container2 {
+  height: 700px;
+  background-image: url(../images/photo2.jpg);
+  background-size: cover;
+}
+.container3 {
+  height: 700px;
+  background-image: url(../images/photo3.png);
+
+  background-size: cover;
+}
+.bottom {
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  font-family: fantasy;
+  color: seashell;
+}
+.bottom h2 {
+  font-size: 30px;
+}
+.bottom h5 {
+  font-size: 13px;
+  padding-top: 20px;
+}
+.copyright {
+  font-family: fantasy;
+  font-size: 13px;
+  color: seashell;
+  padding: 20px;
+}
+.copyright p {
+  text-align: left;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit="return register()" action="/register" method="POST">
+      <div>
+        <div>Login</div>
+        <p>
+          <input type="text" id="login" name="login" required />
+        </p>
+      </div>
+      <div>
+        <div>Password</div>
+        <p>
+          <input type="password" id="password" required />
+        </p>
+      </div>
+      <div>
+        <div>Email</div>
+        <p>
+          <input type="email" id="email" required />
+        </p>
+      </div>
+      <div>
+        <div>Age</div>
+        <p>
+          <input type="text" id="age" required />
+        </p>
+        <input type="submit" value="Register" />
+      </div>
+    </form>
+  </body>
+</html>
+<script>
+  function register() {
+    let input = document.getElementById("age");
+
+    let age = Number(input.value);
+
+    if (isNaN(age)) {
+      alert("Sorry, it is not a namber.");
+    } else if (age < 18) {
+      alert("Sorry, you are too young.");
+    } else {
+      return true;
+      //document.location.href = "home.html";
+    }
+
+    return false;
+  }
+</script>

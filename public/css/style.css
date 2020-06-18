@@ -40,7 +40,7 @@ a {
   height: 700px;
   background-image: url(../images/photo1.jpeg);
   background-size: cover;
-  text-align: -webkit-center;
+  text-align: center;
 }
 .container1 h2 {
   font-family: fantasy;
@@ -67,23 +67,9 @@ a {
 
   background-size: cover;
 }
-.bottom {
-  width: 200px;
-  margin: auto;
-  text-align: center;
-  font-family: fantasy;
-  color: seashell;
-}
-.bottom h2 {
-  font-size: 30px;
-}
-.bottom h5 {
-  font-size: 13px;
-  padding-top: 20px;
-}
 .copyright {
   font-family: fantasy;
-  font-size: 13px;
+  font-size: 15px;
   color: seashell;
   padding: 20px;
 }

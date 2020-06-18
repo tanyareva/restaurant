@@ -56,7 +56,6 @@ app.get("/api/menu", (req, res) => {
       },
     ],
   });
-
   res.send(JSON.stringify(menu));
 });
 
